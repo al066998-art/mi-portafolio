@@ -1,34 +1,32 @@
-/* Fondo */
+
 body {
   background: linear-gradient(135deg, #0061ff, #7f00ff);
   min-height: 100vh;
 }
 
-/* Título */
+
 .titulo-principal {
   color: white;
 }
 
-/* Tarjetas */
 .card-modern {
   border-radius: 12px;
   overflow: hidden;
-  min-height: 300px; /* 🔥 TODAS LAS TARJETAS IGUALES */
+  min-height: 300px;
   display: flex;
   flex-direction: column;
 }
 
-/* Imagen */
 .img-container {
   width: 100%;
-  height: 210px;   /* 🔥 MISMA ALTURA PARA TODAS LAS IMÁGENES */
+  height: 210px;  
   overflow: hidden;
 }
 
 .img-container img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Se recorta sin deformarse */
+  object-fit: cover; 
   transition: transform 0.4s ease;
 }
 
@@ -36,14 +34,12 @@ body {
   transform: scale(1.1);
 }
 
-/* Botón degradado */
 .btn-gradient {
   background: linear-gradient(90deg, #0061ff, #7f00ff);
   color: white !important;
   font-weight: bold;
 }
 
-/* Animación de aparición */
 .fade-in {
   opacity: 0;
   transform: translateY(20px);

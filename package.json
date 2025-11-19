@@ -2,7 +2,7 @@
   "name": "mi-portafolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/al066998-art/mi-portafolio.git",
+  "homepage": "https://al066998-art.github.io/mi-portafolio",
   "dependencies": {
     "@chakra-ui/react": "^3.29.0",
     "@emotion/react": "^11.14.0",
