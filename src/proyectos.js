@@ -33,7 +33,7 @@ export default [
   {
     titulo: "Página inclusiva",
     descripcion: "Diseño web inclusivo para personas con discapacidad visual.",
-    imagen: process.env.PUBLIC_URL + "public/web-inclusive.png",
+    imagen: process.env.PUBLIC_URL +"public/web-inclusive.png",
     url: "https://al066998-art.github.io/e-comerce/",
   },
 ];
