@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/al066998-art/mi-portafolio.git/static/css/main.f41f199d.css",
+    "main.js": "/al066998-art/mi-portafolio.git/static/js/main.bfdff5d4.js",
+    "static/js/453.c20586c0.chunk.js": "/al066998-art/mi-portafolio.git/static/js/453.c20586c0.chunk.js",
+    "index.html": "/al066998-art/mi-portafolio.git/index.html",
+    "main.f41f199d.css.map": "/al066998-art/mi-portafolio.git/static/css/main.f41f199d.css.map",
+    "main.bfdff5d4.js.map": "/al066998-art/mi-portafolio.git/static/js/main.bfdff5d4.js.map",
+    "453.c20586c0.chunk.js.map": "/al066998-art/mi-portafolio.git/static/js/453.c20586c0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f41f199d.css",
+    "static/js/main.bfdff5d4.js"
+  ]
+}
