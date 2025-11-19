@@ -1,13 +1,58 @@
+/* Fondo */
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(135deg, #0061ff, #7f00ff);
+  min-height: 100vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Título */
+.titulo-principal {
+  color: white;
+}
+
+/* Tarjetas */
+.card-modern {
+  border-radius: 12px;
+  overflow: hidden;
+  min-height: 300px; /* 🔥 TODAS LAS TARJETAS IGUALES */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Imagen */
+.img-container {
+  width: 100%;
+  height: 210px;   /* 🔥 MISMA ALTURA PARA TODAS LAS IMÁGENES */
+  overflow: hidden;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Se recorta sin deformarse */
+  transition: transform 0.4s ease;
+}
+
+.img-zoom:hover {
+  transform: scale(1.1);
+}
+
+/* Botón degradado */
+.btn-gradient {
+  background: linear-gradient(90deg, #0061ff, #7f00ff);
+  color: white !important;
+  font-weight: bold;
+}
+
+/* Animación de aparición */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.6s forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
