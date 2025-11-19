@@ -2,7 +2,7 @@ export default [
   {
     titulo: "Gato (Tic Tac Toe)",
     descripcion: "Juego clásico del gato hecho con JavaScript.",
-    imagen: "public/gato.png",
+    imagen: process.env.PUBLIC_URL + "/gato.png",
     url: "https://al066998-art.github.io/Tic-Tac-Toe-juego/  ",
   },
   {
